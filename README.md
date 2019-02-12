@@ -1,4 +1,4 @@
-# trAIn
+# 🚅 trAIn
 A white-box machine learning system for end-users. 
 ### Getting Started
 
