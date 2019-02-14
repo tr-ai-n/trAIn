@@ -26,12 +26,14 @@ cd trAIn
 **Database setup**
 - create env.py in dataprocessing direcroty
 ```
-cp dataprocessing/env_example.py dataprocessing/env.py
+cp dataprocessing/env_example.py env.py
 ```
 - Enter the configuration details in env.py
 ```
 env_var = {
-    'DATABASE_NAME'       : 'ENTEREnviTER DATABASE_PASSWORD',
+    'DATABASE_NAME'       : 'ENTER_DATABASE_NAME',
+    'DATABASE_USER_NAME'  : 'ENER_DATABASE_USERNAME',
+    'DATABASE_PASSWORD'   : 'ENTER DATABASE_PASSWORD',
 }
 ```
 - Run Commands
