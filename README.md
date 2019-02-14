@@ -9,11 +9,7 @@ pip install requirements.txt
 ### Contribution
 
 **Install Dependencies**
-- Python>=[3.5](https://www.env_var = {
-    'DATABASE_NAME'       : 'ENTER_DATABASE_NAME',
-    'DATABASE_USER_NAME'  : 'ENER_DATABASE_USERNAME',
-    'DATABASE_PASSWORD'   : 'ENTER DATABASE_PASSWORD',
-}python.org/downloads/release/python-350/)
+- Python>=[3.5](https://www.python.org/downloads/release/python-350/)
 - [django](https://www.djangoproject.com/download/)
 - [mysqlclient](https://pypi.org/project/mysqlclient/)
 - Install Mysql ([XAMPP](https://www.apachefriends.org/download.html) is prefered)
