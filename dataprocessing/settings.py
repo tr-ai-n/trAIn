@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+from dataprocessing.env import env_var
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -75,8 +76,12 @@ WSGI_APPLICATION = 'dataprocessing.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': env_var['DATABASE_NAME'],
+        'USER': env_var['DATABASE_USER_NAME'],
+        'PASSWORD': env_var['DATABASE_PASSWORD'],
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
     }
 }
 
