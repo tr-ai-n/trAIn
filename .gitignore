@@ -2,3 +2,4 @@
 db.sqlite3
 dataprocessing/__pycache__/
 dataprocessing/env.py
+public/__pycache__/
