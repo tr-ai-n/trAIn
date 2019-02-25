@@ -1,0 +1,32 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
+
+    <!-- UiKit css loading-->
+    <link rel="stylesheet" href="{% static 'uikit-3.0.3/css/uikit.min.css' %}">
+    <link rel="stylesheet" href="{% static 'uikit-3.0.3/css/uikit-rtl.min.css' %}">
+
+    <!-- Font awesome include-->
+    <link rel="stylesheet" href="{% static 'font-awesome/css/font-awesome.min.css' %}" type="text/css">
+
+    {% block page_head %}
+    {% endblock %}i
+</head>
+<body>
+    {% block page_content %}{% endblock %}
+    {% include "partials/footer.html" %}
+    <script src="{% static 'uikit-3.0.3/js/uikit.min.js' %}"></script>
+{% block page_js %}
+{% endblock %}
+</body>
+</html>
