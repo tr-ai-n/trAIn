@@ -17,12 +17,13 @@
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="{% static 'font-awesome/css/font-awesome.min.css' %}" type="text/css">
-
+    <link rel="stylesheet" href="{% static 'site/css/basic.css' %}">
     {% block page_head %}{% endblock %}
 </head>
 <body>
 <header>
     {% include "partials/navigation.html" %}
+    {% block header %}{% endblock %}
 </header>
 {% block page_content %}{% endblock %}
 {% include "partials/footer.html" %}

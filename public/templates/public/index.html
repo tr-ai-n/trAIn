@@ -1,3 +1,11 @@
 {% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block header %}
+    <div class="uk-background-muted uk-padding uk-panel">
+        <img src="{% static 'images/sde.svg'%}" class="banner-image" alt="site-logo">
+    </div>
+{% endblock %}
+
 {% block page_content %}
 {% endblock %}
