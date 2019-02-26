@@ -1,0 +1,29 @@
+{% load staticfiles %}  
+<nav>
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: header-sticky">
+      <div class="header uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left uk-margin-left">
+          <a href="/" class="uk-navbar-item uk-logo">
+            <img src="{%  static 'images/sde.svg' %}" width="120" alt="trAIn" title="trAIn" />
+          </a>
+        </div>
+        <div class="uk-navbar-right uk-margin-right">
+          <ul class="uk-navbar-nav uk-visible@s">
+            <li><a class="uk-text-emphasis" href="/"><strong>Sign up</strong></a></li>
+            <li><a class="uk-text-emphasis" href=""><strong>Login</strong></a></li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon href="#" uk-toggle="target: .offcanvas-flip"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+      <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close="true"></button>
+            <ul class="uk-navbar-nav uk-visible@s">
+              <li><a class="uk-text-emphasis" href="/"><strong>Sign up</strong></a></li>
+              <li><a class="uk-text-emphasis" href=""><strong>Login</strong></a></li>
+            </ul>
+      </div>
+    </div>
+</nav>
