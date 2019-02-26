@@ -2,5 +2,7 @@
 db.sqlite3
 dataprocessing/__pycache__/
 dataprocessing/env.py
+.vscode
+.vscode/settings.json
 public/__pycache__/
 public/migrations/__pycache__/
