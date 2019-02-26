@@ -4,12 +4,12 @@
 	 viewBox="0 0 438.43 129.91" style="enable-background:new 0 0 438.43 129.91;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#58595B;}
-	.st1{font-family:'HelveticaNeue-Bold';}
+	.st1{font-family:'Open Sans', sans-serif;}
 	.st2{font-size:90.4543px;}
 	.st3{fill:#EE2324;}
 </style>
 <g>
-	<text transform="matrix(1 0 0 1 140.9717 102.5734)" class="st0 st1 st2">TRAIN</text>
+	<text transform="matrix(1 0 0 1 140.9717 102.5734)" class="st0 st1 st2" style="font-family:">TRAIN</text>
 	<g>
 		<polygon class="st3" points="114.31,46.3 98.35,15.1 98.35,67.89 67.69,7.71 36.88,69.32 54.7,69.4 68.17,42.57 81.46,69.27 
 			81.44,69.27 98.23,102.57 98.35,102.57 116.07,102.57 116.07,102.57 		"/>
